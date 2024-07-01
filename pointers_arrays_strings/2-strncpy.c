@@ -17,8 +17,10 @@ int i
 	i++;
 }
 while (i<0);
-{
+     {  
 	dest[i]!='\0';
-	return(0);
-} 
+	i++;
+     } 
+
+	return(dest); 
 }
