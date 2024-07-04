@@ -14,18 +14,17 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int mak ; int dell ;
+	unsigned int mak, dell;
 
-	for(mak= 0; s[mak] != '\0'; mak++)
+	for (mak = 0; s[mak]!= '\0'; mak++)
 	{
-		for(dell=0; accept[dell] ! = '\0'; dell++)
+		for (dell = 0; accept[dell] != '\0'; dell++)
 		{
-			if(accept[dell]=s[mak])
+			if (accept[dell] == s[mak])
 			{
-				return(&s[mak]);
+				return (&s[mak]);
 			}
 		}
 	}
-	return(Null);
+	return (NULL);
 }
-
