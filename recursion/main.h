@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <inistd.h>
+#include <unistd.h>
 
 /**
  *void prototypes(void)
