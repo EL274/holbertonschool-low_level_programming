@@ -8,9 +8,9 @@
  * Return: This return to 0
  *
  */
-int main ( int arg s ; char * arg v[])
+int main(int args ; char *argv[])
 {
-	printf("%d/n")
+	printf("%d/n", args -1);
 	(void)argv;
 	return(0);
 }
