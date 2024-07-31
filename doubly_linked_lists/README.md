@@ -1,2 +1,1 @@
-0. Print list
-1. List length 
+Add nodes in the doubly liked
