@@ -1,1 +1,1 @@
-Add nodes in the doubly liked
+doubly linked lists 
